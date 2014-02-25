@@ -1,0 +1,10 @@
+--- ../../../CMakeLists.txt	2014-02-22 12:17:40.390370883 -0800
++++ ../../../CMakeLists.txt	2014-02-22 12:18:48.704371564 -0800
+@@ -394,6 +394,7 @@
+ 
+ #Modules without test yet
+ add_module(plugin/pedestrian "Default" FALSE)
++add_module(plugin/foursquare "Default" TRUE)
+ add_module(speech/android "Default" FALSE)
+ add_module(speech/espeak "Default" FALSE)
+ add_module(speech/iphone "Default" FALSE)

@@ -1,0 +1,4 @@
+#include <stdint.h>
+#include <stdlib.h>
+const char *client_secret="";
+const char *client_id="";
